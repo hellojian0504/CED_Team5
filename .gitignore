@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data
+raw_data/
+dataset/
+datasets/
+data/
+real_test*/
+
+# YOLO outputs
+runs/
+*.cache
+
+# Model checkpoints: keep only the final selected model
+*.pt
+!models/best.pt
+
+# Jetson/TensorRT build output
+*.engine
+*.onnx
+
+# Temporary
+*.log
+*.tmp
